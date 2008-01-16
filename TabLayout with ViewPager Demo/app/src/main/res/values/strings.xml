@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TabLayout with ViewPager Demo</string>
+
+    <string name="java_fragment">Java fragment</string>
+    <string name="android_fragment">Android fragment</string>
+    <string name="kotlin_fragment">Kotlin fragment</string>
+
 </resources>
