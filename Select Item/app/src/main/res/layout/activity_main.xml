@@ -7,15 +7,39 @@
 
 <!--    <androidx.appcompat.widget.Toolbar-->
 <!--        android:id="@+id/toolbar"-->
+<!--        android:background="@color/colorPrimary"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content">-->
-<!--        -->
-<!--        <ImageView-->
-<!--            -->
-<!--            android:src="@drawable/ic_add_black_24dp"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"/>-->
-<!--        -->
+
+<!--        <RelativeLayout-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:paddingRight="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:textColor="@color/colorLWhite"-->
+<!--                android:textStyle="bold"-->
+<!--                android:fontFamily="@font/actor"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Colors"-->
+<!--                android:textSize="24dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_add_color"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:paddingRight="15dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:src="@drawable/ic_add_black_24dp" />-->
+
+<!--        </RelativeLayout>-->
+
 <!--    </androidx.appcompat.widget.Toolbar>-->
 
     <ImageView
@@ -43,6 +67,29 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="32sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:layout_below="@+id/tv_selectItem"
+        android:id="@+id/et_add_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:hint="Add new Color here..."
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btn_add_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_add_color"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Add Color"
+        android:textColor="@color/colorLWhite" />
 
     <Button
         android:id="@+id/et_selectItem"

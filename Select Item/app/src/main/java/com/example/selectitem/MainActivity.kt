@@ -1,5 +1,6 @@
 package com.example.selectitem
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -23,6 +24,22 @@ class MainActivity : AppCompatActivity() {
             val randomColor = random.nextInt(colorList.count())
 
             tv_selectItem.text = colorList[randomColor]
+        }
+
+//        //use of intent to open new activity in kotlin
+//        iv_add_color.setOnClickListener {
+//
+//            val intent=Intent(this,AddColorsActivity::class.java)
+//            startActivity(intent)
+//        }
+
+
+        btn_add_color.setOnClickListener {
+
+            val newColor=et_add_color.text.toString()
+            colorList.add(newColor)
+            et_add_color.text.clear()
+            println(colorList)
         }
 
     }
