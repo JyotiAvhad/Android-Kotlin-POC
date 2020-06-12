@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/half_page_change_layout"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:textAllCaps="true"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
+        android:text="Email"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:inputType="textEmailSubject"
+        android:hint="login.app@gmail.com"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
+        android:text="Password"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="login123"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPink"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Don't Have an account? Register"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
