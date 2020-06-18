@@ -6,25 +6,25 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SecondActivity">
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_clickSecond"
+        android:id="@+id/tv_clickFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
-        android:text="Second Screen"
+        android:text="First Screen"
         android:textColor="#000"
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btn_clickSecond"
+        android:id="@+id/btn_clickFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:background="#000"
+        android:text="Click to go Next Screen"
         android:padding="20dp"
-        android:text="Back to Previous Screen"
         android:textColor="#fff"
         android:textSize="20sp" />
 
