@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">बहु भाषा अ‍ॅप - मराठी</string>
+
+    <string name="navigation_drawer_open">नेव्हिगेशन ड्रॉवर उघडा</string>
+    <string name="navigation_drawer_close">नेव्हिगेशन ड्रॉवर बंद करा </string>
+
+    <string name="nav_header_title">एंड्रॉइड वेव</string>
+    <string name="nav_header_subtitle">androidwave.com</string>
+    <string name="nav_header_desc">एंड्रॉइड आणि आईओएस विकसक ब्लॉग</string>
+    <string name="action_settings">सेटिंग्ज</string>
+    <string name="description_androidwave">आमच्याकडे फायरबेस, कॅमेरा 2 एपीआय, एक्सो प्लेयर, यूट्यूब एपीआय, डॅगर 2, आरएक्सजावा,
+    एमव्हीव्हीएम, एमव्हीपी, क्षेत्र आणि बरेच काहीसाठी एंड्रॉइड आणि आईओएस अ‍ॅप विकास प्रशिक्षणांचे सादर करा.</string>
+
+<!--        Navigation Menu-->
+
+    <string name="title_import">आयात करा</string>
+    <string name="title_gallery">गॅलरी</string>
+    <string name="title_share">सामायिक करा</string>
+    <string name="title_send">पाठवून</string>
+
+</resources>
